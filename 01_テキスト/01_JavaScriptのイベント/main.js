@@ -7,3 +7,9 @@ const alertMessage = function () {
 button.onclick = alertMessage
 
 //button.onclickには関数を代入しなければならないが、alerMessage()は関数ではないから
+
+const plusButton = document.getElementById("plus-button")
+
+plusButton.onclick = function () {
+  console.log("こんにちは")
+}
