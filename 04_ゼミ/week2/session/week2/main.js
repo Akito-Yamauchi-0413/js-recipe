@@ -10,9 +10,7 @@ addButton.onclick = function () {
   card.textContent = memoInput.value
   dcard.textContent = "削除"
   cardsContainer.append(card)
-
   card.append(dcard)
-
   dcard.onclick = function () {
     card.remove()
   }
