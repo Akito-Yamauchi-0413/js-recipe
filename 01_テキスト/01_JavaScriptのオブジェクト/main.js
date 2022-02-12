@@ -3,4 +3,4 @@ const hikakin = {
     console.log("こんにちは")
   },
 }
-hikakin.sayHello()
+hikakin.sayHello() //hikakinオブジェクトに入っているsayHelloメソッドを実行
